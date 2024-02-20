@@ -1,0 +1,69 @@
+/* General */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    background-color: black;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p, .main-header {
+    color: white;
+}
+
+/* Transition */
+
+a, ._button {
+    transition: all 250ms ease;
+}
+
+/*  HOME NAV TAB*/
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links {
+    gap: 2.5rem;
+    list-style: none;
+    font-size: 1rem;
+}
+
+a {
+    color: rgb(170, 170, 170);
+    text-decoration: none;          /* Underline */
+    text-decoration-color: black;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(85, 85, 85);
+}
+
+.main-header {
+    font-size: 2rem;
+}
+
+.main-header:hover {
+    cursor:default;
+}
